@@ -1,12 +1,13 @@
 import { StyleSheet, SafeAreaView } from "react-native";
 import React from "react";
 
-import { Header } from "../../components/organisms";
+import { Header, Footer } from "../../components/organisms";
 
 const HomeScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
       <Header />
+      <Footer />
     </SafeAreaView>
   );
 };
