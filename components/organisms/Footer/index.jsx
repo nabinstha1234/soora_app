@@ -88,6 +88,5 @@ const styles = StyleSheet.create({
     marginTop: 15,
     marginBottom: 15,
     textAlign: "center",
-    fontFamily: "Inter",
   },
 });
