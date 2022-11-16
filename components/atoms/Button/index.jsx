@@ -17,10 +17,10 @@ export default IconButton;
 const styles = StyleSheet.create({
   button: {
     backgroundColor: "#000",
-    padding: 10,
+    padding: 15,
     borderRadius: 5,
     width: 130,
-    height: 40,
+    height: 45,
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
   },
   image: {
-    width: 20,
-    height: 20,
+    width: 12,
+    height: 12,
   },
 });

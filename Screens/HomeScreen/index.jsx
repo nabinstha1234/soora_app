@@ -1,7 +1,7 @@
 import { StyleSheet, Image, SafeAreaView, ScrollView } from "react-native";
 import React from "react";
 
-import { Header, Footer } from "../../components/organisms";
+import { Header, Footer, EmailSubscription } from "../../components/organisms";
 import { HeroContainer } from "../../components/molecules";
 
 const HomeScreen = () => {
@@ -24,6 +24,7 @@ const HomeScreen = () => {
           mainHeaderTextFirst="Get Notified"
           mainHeaderTextSecond="When we Launch"
         />
+        <EmailSubscription />
         <Image
           style={styles.mainImage}
           source={require("../../assets/images/landing-image-1.png")}

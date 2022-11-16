@@ -9,7 +9,10 @@ const HeroContainer = ({
 }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.subHeaderText}>{subHeaderText}</Text>
+      <View style={styles.headerContainer}>
+        <View style={styles.dashIcon} />
+        <Text style={styles.subHeaderText}>{subHeaderText}</Text>
+      </View>
       <Text style={styles.mainHeaderText}>{mainHeaderTextFirst}</Text>
       <Text style={styles.mainHeaderText}>{mainHeaderTextSecond}</Text>
       {hasImages && (
@@ -67,5 +70,17 @@ const styles = StyleSheet.create({
   image: {
     width: 160,
     height: 50,
+  },
+  dashIcon: {
+    borderBottomWidth: 2,
+    height: 10,
+    width: 20,
+    borderColor: "#000",
+    marginRight: 5,
+  },
+  headerContainer: {
+    display: "flex",
+    flexDirection: "row",
+    marginRight: 10,
   },
 });

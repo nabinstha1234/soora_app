@@ -30,7 +30,7 @@ const Footer = () => {
       <View style={styles.iconsContainer}>
         {footerIcons.map((icon, index) => {
           return (
-            <TouchableOpacity style={styles.iconContainer}>
+            <TouchableOpacity key={icon.title} style={styles.iconContainer}>
               <Image
                 key={index}
                 style={styles.footerIcon}
